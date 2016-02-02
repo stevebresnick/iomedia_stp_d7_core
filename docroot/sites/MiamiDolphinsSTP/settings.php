@@ -592,3 +592,7 @@ if (isset($_SERVER['DEVDESKTOP_DRUPAL_SETTINGS_DIR']) && file_exists($_SERVER['D
   require $_SERVER['DEVDESKTOP_DRUPAL_SETTINGS_DIR'] . '/cld_devcloud_iomediastp1_dev_MiamiDolphinsSTP.inc';
 }
 // </DDSETTINGS>
+
+if (file_exists('/var/www/site-php')) {
+    require('/var/www/site-php/iomediastp1/MiamiDolphinsSTP-settings.inc');
+}
