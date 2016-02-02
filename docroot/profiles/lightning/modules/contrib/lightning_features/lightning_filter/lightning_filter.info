@@ -1,0 +1,23 @@
+name = Lightning Filter
+description = Text format and filter configurations.
+core = 7.x
+package = Lightning
+version = 7.x-1.0-alpha3
+project = lightning_features
+dependencies[] = editor
+dependencies[] = entity_embed
+dependencies[] = features
+dependencies[] = filter
+datestamp = 1449086310
+features[features_api][] = api:2
+features[filter][] = filtered_html
+features[filter][] = full_html
+features[filter][] = plain_text
+features[filter][] = userbase
+
+; Information added by Drupal.org packaging script on 2016-01-08
+version = "7.x-1.0-beta1"
+core = "7.x"
+project = "lightning_features"
+datestamp = "1452293202"
+

@@ -1,0 +1,16 @@
+name = Personalize Taxonomy Context
+description = Provides a visitor context plugin for targeting based on taxonomy.
+dependencies[] = personalize
+dependencies[] = taxonomy
+package = Personalization
+core = 7.x
+
+files[] = tests/personalize_taxonomy_context.test
+
+
+; Information added by drush on 2016-01-08
+version = "7.x-2.0-beta9+3-dev"
+core = "7.x"
+project = "personalize"
+datestamp = "1452293614"
+

@@ -1,0 +1,15 @@
+name = Personalize Blocks test module
+description = Contains custom blocks for testing
+core = 7.x
+package = Testing
+hidden = TRUE
+
+dependencies[] = personalize_blocks
+
+
+; Information added by drush on 2016-01-08
+version = "7.x-2.0-beta9+3-dev"
+core = "7.x"
+project = "personalize"
+datestamp = "1452293614"
+
